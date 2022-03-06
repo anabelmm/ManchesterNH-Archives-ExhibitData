@@ -6,11 +6,6 @@ Exhibit,Exhibit,String,-,"Normalized equivalent to ""Album"" variable -renamed f
 Uploaded,Uploaded,Date,"Month D, YYYY","Date that the digital object was digitally archived, or uploaded to the online repository"
 Publication Date,Publication_Date,Date,YYYY-MM-DD,"Normalized equivalent to ""Uploaded"" variable-renamed for consistency with ""Publisher"" variable. Date format has been normalized to standard YYYY-MM-DD format"
 Image name,Image_Name,String,-,The file name of the image 
-Caption,Caption,String,-,"The description that is associated with the image inside the Flickr album, contains metadata information "
-URL,URL,String,-,Direct link to the image -takes you to the Flickr page where you can view the file
-Identifier (URI),Identifier,String,-,"Normalized equivalent to ""URL"" variable"
-Text in Image,Text in Image,String,-,"Human readable text that is visible within an image, transcribed for convenience"
-Image Text,Image_Text,String,,"Normalized equivalent to ""Text in Image"" variable"
 Collection Number,Collection,String,-,"Manchester City Archives internal identifier used to assist in locating and diferrentiating between collection files. Number prior to the period corresponds to an pre-assigned collection group code while the number after the period is sequential for that group (1st item is XXX.001, 2nd item is XXX.002, etc). "
 Accession Number,Accession,String,-,"Formatted as the year archived, followed by a period, then the item group number for that year: YYYY.### (e.g. the 4th collection received and archived in 2022 would have the accession number 2022.004) "
 Image Number,Image_Number,String,-,"Sequentially assigned item-level number within the collection. Formatted as five digits ##### (e.g. 00029, 00030, 00031, etc.) "
@@ -19,6 +14,9 @@ Creator,Creator,String,-,"Refers to the individuals, departments, or organizatio
 Creation Date,Creation_Date,Date,YYYY-MM-DD,The date which the original document(s) was produced
 Contributor,Contributor,String,-,The name and email address of individual(s) responsible for archiving the document(s) 
 Coverage,Coverage,String,-,Geographic location(s) to which the document(s) correspond 
+Caption,Caption,String,-,"The description that is associated with the image inside the Flickr album, contains metadata information "
+URL,URL,String,-,Direct link to the image -takes you to the Flickr page where you can view the file
+Identifier (URI),Identifier,String,-,"Normalized equivalent to ""URL"" variable"
+Text in Image,Text in Image,String,-,"Human readable text that is visible within an image, transcribed for convenience"
+Image Text,Image_Text,String,-,"Normalized equivalent to ""Text in Image"" variable"
 Keywords,Keywords,String,Array of Strings,"Subject tag(s) associated with the topic of the data object, which assist users in searching and browsing"
-,,,,
-,,,, 
