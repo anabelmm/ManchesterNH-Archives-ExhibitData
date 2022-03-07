@@ -5,10 +5,10 @@ Schema Used: DCAT-US Schema v.1.1 (Project Open Data Metadata Schema)
 ### Files and Naming Conventions
 
 The repository contains the following files:
-* MWW-Image_Item-Level_Metadata_#.#.#.csv -- https://github.com/anabelmm/ManchesterNH-Archives-ExhibitData/blob/main/MWW-Images_Item-Level_Metadata_1.0.1.csv
-* MWW-Images_Item-Level_Metadata_NORMALIZED_#.#.#.csv -- https://github.com/anabelmm/ManchesterNH-Archives-ExhibitData/blob/main/MWW-Images_Item-Level_Metadata_NORMALIZED_1.0.1.csv
-* MWW-Images_CollectionMetadata_#.#.#.csv -- https://github.com/anabelmm/ManchesterNH-Archives-ExhibitData/blob/main/MWW-Images_CollectionMetadata_1.0.1.csv
-* MWW-Images_Data-Dictionary_#.#.#.csv-- https://github.com/anabelmm/ManchesterNH-Archives-ExhibitData/blob/main/MWW-Images_Data-Dictionary_1.1.0.csv
+* [MWW-Image_Item-Level_Metadata_#.#.#.csv](https://github.com/anabelmm/ManchesterNH-Archives-ExhibitData/blob/main/MWW-Images_Item-Level_Metadata_1.0.1.csv)
+* [MWW-Images_Item-Level_Metadata_NORMALIZED_#.#.#.csv](https://github.com/anabelmm/ManchesterNH-Archives-ExhibitData/blob/main/MWW-Images_Item-Level_Metadata_NORMALIZED_1.0.1.csv)
+* [MWW-Images_CollectionMetadata_#.#.#.csv](https://github.com/anabelmm/ManchesterNH-Archives-ExhibitData/blob/main/MWW-Images_CollectionMetadata_1.0.1.csv)
+* [MWW-Images_Data-Dictionary_#.#.#.csv](https://github.com/anabelmm/ManchesterNH-Archives-ExhibitData/blob/main/MWW-Images_Data-Dictionary_1.2.0.csv)
 
 Naming Convention follows the following format: Short-Exhibit-Title_File-Description_Semantic.Versioning.Here.csv 
 
