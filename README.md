@@ -1,8 +1,8 @@
 # ManchesterNH-Archives-ExhibitData ReadMe
-### Metadata
+### METADATA
 Schema Used: DCAT-US Schema v.1.1 (Project Open Data Metadata Schema)
 
-### Files and Naming Conventions
+### FILES AND NAMING CONVENTIONS
 
 The repository contains the following files:
 * [MWW-Image_Item-Level_Metadata_#.#.#.csv](https://github.com/anabelmm/ManchesterNH-Archives-ExhibitData/blob/main/MWW-Images_Item-Level_Metadata_1.0.1.csv)
@@ -16,12 +16,12 @@ Semantic versioning will be in a #.#.# format, starting with 1.0.0. Whenever dat
 
 
 # Contact
-### Repository owner: 
+### REPOSITORY OWNER: 
 Anabel Moreno-Mendez
 - anabelmm@uw.edu 
 - amoreno@manchesternh.gov 
 
-### Associated Institution:
+### ASSOCIATED INSTITUTION:
 University of Washington Information School
 -1851 NE Grant Ln,
 Seattle, WA 98105
@@ -35,15 +35,18 @@ This repository contains sample data from the City of Manchester's "Water Works 
 
 Intended audience: city historians, city archivist(s) and their volunteers
 
+Mission: To create a dataset containing item-level metadata for each data object within the digital exhibit, so that historians and archivists are easily able to search, browse, and access both the digital items within the exhibit and all associated metadata.  
 
-# Data
-### RAW DATA
+# Methodology and Data
+### PROCESSING RAW DATA
 
-The intial raw data for the project consists of a sample of nine photographs from the Manchester Water Works Department (MWW) collection referenced above. It is important to note that the City Archives have stated "Item-Level descriptions for images have not yet been created," so a significant amount of leg work was required in order to establish the datasets in this repository.  There was some item-level metadata available directly from the Flickr gallery (variable fields: "Owner",	"Album",	"Uploaded",	"Image_Name",	"Caption",	"URL", and	"Text in Image"), and this data was pulled and compiled into the dataset labelled "MWW-Image_Item-Level_Metadata_#.#.#.csv" to begin the curation process. 
+The intial raw data for the project consists of a sample of nine photographs from the Manchester Water Works Department (MWW) collection referenced above. It is important to note that the City Archives have stated "Item-Level descriptions for images have not yet been created," so a significant amount of leg work was required in order to establish the datasets in this repository.  There was some metadata available directly from the Flickr gallery (variable fields: "Owner",	"Album",	"Uploaded",	"Image_Name",	"Caption",	"URL", and	"Text in Image"), and this data was pulled for each data object and compiled into the dataset labelled "MWW-Image_Item-Level_Metadata_#.#.#.csv" to begin the process. 
 
-The author contacted the City Archivist via email and confirmed that no item-level metadata were kept internally/ offline, however, she was able to obtain some metadata associated with the MWW Dept. Phot Col., 1886-1993 exhibit by way of an unpublished collection guide (unpublished as it was incomplete). Using the incomplete guide and available information from the website, a table was created containing metadata for the collection, for the most part conforming to the DCAT-US Schema. This data set is labelled "MWW-Images_CollectionMetadata_#.#.#.csv" and was instrumental in assisting the author throughout the data normalization process, as she was able to pull information from it to fill in any item-level  gaps that were present. 
+The author contacted the City Archivist via email and confirmed that no item-level metadata were kept internally/ offline, however, she was able to obtain some metadata associated with the MWW Dept. Phot Col., 1886-1993 exhibit by way of an unpublished collection guide (unpublished as it was incomplete). Using the incomplete guide and available information from the website, a table was created containing metadata for the collection, also conforming to the DCAT-US Schema (note: variable definitions for DCAT-US Schema can be found here: https://resources.data.gov/resources/dcat-us/). This dataset is labelled "MWW-Images_CollectionMetadata_#.#.#.csv" and was a key point of reference, as the author was later able to pull information from it to fill in missing item-level metadata. 
 
---
+The author then compiled and normalized item-level metadata for each of the nine sample photographs from the raw data.
+ 
+
 
 ### NORMALIZATION
 Normalized data is contained in the document labelled "MWW-Images_Item-Level_Metadata_NORMALIZED_#.#.#.csv 
@@ -54,7 +57,7 @@ In the normalized file, we observe the following:
 * New variables "Creator",	"Creation_Date",	"Publisher", "Contributor",	"Coverage",	"Accession",	"Collection",	"Item_Number", and	"Keywords" were created
 * Variable "Caption" was completely eliminated after the addition of the aforementioned variables
 
-Methodology and Justification:
+Justification:
 - Justification for the renaming of any variables is noted in the data dictionary below. Where the justification for renaming simply states "normalized," the variable name change happened for formatting reasons (to avoid spaces for example) or as a common best practic (stating "identifier" instead of "URL"). 
 - The normalized "Image_Name" variable consists of a completely revamped file naming convention: CreatorInitials_Exhibit_Title_"Collection"__"Item_Number"
 - Variables "Collection", "Accession", and "Publisher" were parsed from the "Caption" variable in the raw data. 
@@ -62,8 +65,6 @@ Methodology and Justification:
 - "Creation Date" variable was parsed from the "Text in Image" variable. Unfortunately, most photos did not have the date available.
 - Variables "Contributor", "Coverage", and "Keywords" were obtained by referencing the Collection metadata documentation. 
 - The "Item_Number" variable was more nuanced. After referencing the draft guide provided by the archivist, it was concluded that the image number, or the item number, was the latter portion of the original "Image_Name" formatting. The "Item_Number" variable was therefore parsed from the OG "Image_Name" variable. 
-
-
 
 
 ### DATA DICTIONARY
