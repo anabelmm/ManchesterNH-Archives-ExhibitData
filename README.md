@@ -1,25 +1,30 @@
 # ManchesterNH-Archives-ExhibitData ReadMe
-### METADATA
-Schema Used: DCAT-US Schema v.1.1 (Project Open Data Metadata Schema)
 
-### FILES AND NAMING CONVENTIONS
+### FILES 
 
-The repository contains the following files:
+This repository contains the following files:
 * [MWW-Image_Item-Level_Metadata_#.#.#.csv](https://github.com/anabelmm/ManchesterNH-Archives-ExhibitData/blob/main/MWW-Images_Item-Level_Metadata_1.0.1.csv)
 * [MWW-Images_Item-Level_Metadata_NORMALIZED_#.#.#.csv](https://github.com/anabelmm/ManchesterNH-Archives-ExhibitData/blob/main/MWW-Images_Item-Level_Metadata_NORMALIZED_1.0.1.csv)
-* [MWW-Images_CollectionMetadata_#.#.#.csv](https://github.com/anabelmm/ManchesterNH-Archives-ExhibitData/blob/main/MWW-Images_CollectionMetadata_1.0.1.csv)
+* [MWW-Images_Collection-Metadata_#.#.#.csv](https://github.com/anabelmm/ManchesterNH-Archives-ExhibitData/blob/main/MWW-Images_Collection-Metadata_1.0.2.csv)
 * [MWW-Images_Data-Dictionary_#.#.#.csv](https://github.com/anabelmm/ManchesterNH-Archives-ExhibitData/blob/main/MWW-Images_Data-Dictionary_1.2.0.csv)
 
+
+### NAMING CONVENTIONS
 Naming Convention follows the following format: Short-Exhibit-Title_File-Description_Semantic.Versioning.Here.csv 
 
-Semantic versioning will be in a #.#.# format, starting with 1.0.0. Whenever data is normalized, +1 to the third #. If data is updated to fix mistakes or add analysis, +1 to the second #. If new data is collected/produced, +1 to the first #. 
+Semantic versioning: Versions will be tracked in a #.#.# format, starting with 1.0.0. Whenever data is normalized, +1 to the third #. If data is updated to fix mistakes or add analysis, +1 to the second #. If new data is collected/produced, +1 to the first #. 
+
+NOTE--THIS README FILE MUST BE UPDATED WITH A CORRECTED LINK EVERY TIME A NEW FILE VERSION IS CREATED, OR THE HYPERLINK WILL GIVE YOU A 404 ERROR. 
+
+### BACKUPS
+It is recommended that a local copy of the files be downloaded/updated every time new data is added. A backup of version 1.0.0 is available on [Google Drive](https://docs.google.com/spreadsheets/d/1TJmeKkdVtE6OmK8UkkCG5Y88InfS7b3tuzvm3_nHnrs/edit?usp=sharing).
 
 
 # Contact
 ### REPOSITORY OWNER: 
 Anabel Moreno-Mendez
-- anabelmm@uw.edu 
-- amoreno@manchesternh.gov 
+- School Email: anabelmm@uw.edu 
+- Work Email: amoreno@manchesternh.gov 
 
 ### ASSOCIATED INSTITUTION:
 University of Washington Information School
@@ -91,3 +96,7 @@ Justification:
 | Contributor       | Contributor      | String        | -                | The name and email address of individual(s) responsible for archiving the   document(s)                                                                                                                                                                                                                                        |
 | Coverage          | Coverage         | String        | -                | Geographic location(s) to which the document(s) correspond                                                                                                                                                                                                                                                                     |
 | Keywords          | Keywords         | String        | Array of Strings | Subject tag(s) associated with the topic of the data object, which assist   users in searching and browsing                                                                                                                                                                                                                    |
+
+
+### METADATA
+Schema Used for this repository: DCAT-US Schema v.1.1 (Project Open Data Metadata Schema)
