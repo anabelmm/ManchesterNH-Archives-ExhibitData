@@ -1,6 +1,17 @@
 # ManchesterNH-Archives-ExhibitData ReadMe
 
-### FILES 
+## Table of Contents
+
+* [Files](https://github.com/anabelmm/ManchesterNH-Archives-ExhibitData/edit/main/README.md#files)
+
+* [Contact](https://github.com/anabelmm/ManchesterNH-Archives-ExhibitData/edit/main/README.md#contact)
+
+* [Background](https://github.com/anabelmm/ManchesterNH-Archives-ExhibitData/edit/main/README.md#background)
+
+* [Methodology and Data](https://github.com/anabelmm/ManchesterNH-Archives-ExhibitData/edit/main/README.md#methodology-and-data)
+
+
+# FILES 
 
 This repository contains the following files:
 * [MWW-Image_Item-Level_Metadata_#.#.#.csv](https://github.com/anabelmm/ManchesterNH-Archives-ExhibitData/blob/main/MWW-Images_Item-Level_Metadata_1.0.1.csv)
@@ -18,7 +29,6 @@ NOTE--THIS README FILE MUST BE UPDATED WITH A CORRECTED LINK EVERY TIME A NEW FI
 
 ### BACKUPS
 It is recommended that a local copy of the files be downloaded/updated every time new data is added. A backup of version 1.0.0 is available on [Google Drive](https://docs.google.com/spreadsheets/d/1TJmeKkdVtE6OmK8UkkCG5Y88InfS7b3tuzvm3_nHnrs/edit?usp=sharing).
-
 
 # Contact
 ### REPOSITORY OWNER: 
