@@ -69,6 +69,7 @@ Justification:
 - "Creator" variable was logically deduced from the title of the exhibits. Future exhibits added to the repository may have different creators. 
 - "Creation Date" variable was parsed from the "Text in Image" variable. Unfortunately, most photos did not have the date available.
 - Variables "Contributor", "Coverage", and "Keywords" were obtained by referencing the Collection metadata documentation. 
+- "Keywords" were narrowed by viewing the images and assessing the subject matter of the photograph. 
 - The "Item_Number" variable was more nuanced. After referencing the draft guide provided by the archivist, it was concluded that the image number, or the item number, was the latter portion of the original "Image_Name" formatting. The "Item_Number" variable was therefore parsed from the OG "Image_Name" variable. 
 
 
