@@ -2,13 +2,13 @@
 
 ## Table of Contents
 
-* [Files](https://github.com/anabelmm/ManchesterNH-Archives-ExhibitData/edit/main/README.md#files)
+* [Files](https://github.com/anabelmm/ManchesterNH-Archives-ExhibitData#files)
 
-* [Contact](https://github.com/anabelmm/ManchesterNH-Archives-ExhibitData/edit/main/README.md#contact)
+* [Contact](https://github.com/anabelmm/ManchesterNH-Archives-ExhibitData#contact)
 
-* [Background](https://github.com/anabelmm/ManchesterNH-Archives-ExhibitData/edit/main/README.md#background)
+* [Background](https://github.com/anabelmm/ManchesterNH-Archives-ExhibitData#background)
 
-* [Methodology and Data](https://github.com/anabelmm/ManchesterNH-Archives-ExhibitData/edit/main/README.md#methodology-and-data)
+* [Methodology and Data](https://github.com/anabelmm/ManchesterNH-Archives-ExhibitData#methodology-and-data)
 
 
 # FILES 
