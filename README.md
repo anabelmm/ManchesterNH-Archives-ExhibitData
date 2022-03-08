@@ -14,8 +14,8 @@
 # FILES 
 
 This repository contains the following files:
-* [MWW-Image_Item-Level_Metadata_#.#.#.csv](https://github.com/anabelmm/ManchesterNH-Archives-ExhibitData/blob/main/MWW-Images_Item-Level_Metadata_1.0.1.csv)
-* [MWW-Images_Item-Level_Metadata_NORMALIZED_#.#.#.csv](https://github.com/anabelmm/ManchesterNH-Archives-ExhibitData/blob/main/MWW-Images_Item-Level_Metadata_NORMALIZED_1.0.1.csv)
+* [MWW-Image_Item-Level-Metadata_#.#.#.csv](https://github.com/anabelmm/ManchesterNH-Archives-ExhibitData/blob/main/MWW-Images_Item-Level-Metadata_1.0.1.csv)
+* [MWW-Images_Item-Level-Metadata-NORMALIZED_#.#.#.csv](https://github.com/anabelmm/ManchesterNH-Archives-ExhibitData/blob/main/MWW-Images_Item-Level-Metadata-NORMALIZED_1.0.1.csv)
 * [MWW-Images_Collection-Metadata_#.#.#.csv](https://github.com/anabelmm/ManchesterNH-Archives-ExhibitData/blob/main/MWW-Images_Collection-Metadata_1.0.2.csv)
 * [MWW-Images_Data-Dictionary_#.#.#.csv](https://github.com/anabelmm/ManchesterNH-Archives-ExhibitData/blob/main/MWW-Images_Data-Dictionary_1.2.0.csv)
 
@@ -55,16 +55,16 @@ Mission: To create a dataset containing item-level metadata for each data object
 # Methodology and Data
 ### PROCESSING RAW DATA
 
-The intial raw data for the project consists of a sample of nine photographs from the Manchester Water Works Department (MWW) collection referenced above. It is important to note that the City Archives have stated "Item-Level descriptions for images have not yet been created," so a significant amount of leg work was required in order to establish the datasets in this repository.  There was some metadata available directly from the Flickr gallery (variable fields: "Owner",	"Album",	"Uploaded",	"Image_Name",	"Caption",	"URL", and	"Text in Image"), and this data was pulled for each data object and compiled into the dataset labelled "MWW-Image_Item-Level_Metadata_#.#.#.csv" to begin the process. 
+The intial raw data for the project consists of a sample of nine photographs from the Manchester Water Works Department (MWW) collection referenced above. It is important to note that the City Archives have stated "Item-Level descriptions for images have not yet been created," so a significant amount of leg work was required in order to establish the datasets in this repository.  There was some metadata available directly from the Flickr gallery (variable fields: "Owner",	"Album",	"Uploaded",	"Image_Name",	"Caption",	"URL", and	"Text in Image"), and this data was pulled for each data object and compiled into the dataset labelled "MWW-Image_Item-Level-Metadata_#.#.#.csv" to begin the process. 
 
-The author contacted the City Archivist via email and confirmed that no item-level metadata were kept internally/ offline, however, she was able to obtain some metadata associated with the MWW Dept. Phot Col., 1886-1993 exhibit by way of an unpublished collection guide (unpublished as it was incomplete). Using the incomplete guide and available information from the website, a table was created containing metadata for the collection, also conforming to the DCAT-US Schema (note: variable definitions for DCAT-US Schema can be found here: https://resources.data.gov/resources/dcat-us/). This dataset is labelled "MWW-Images_CollectionMetadata_#.#.#.csv" and was a key point of reference, as the author was later able to pull information from it to fill in missing item-level metadata. 
+The author contacted the City Archivist via email and confirmed that no item-level metadata were kept internally/ offline, however, she was able to obtain some metadata associated with the MWW Dept. Phot Col., 1886-1993 exhibit by way of an unpublished collection guide (unpublished as it was incomplete). Using the incomplete guide and available information from the website, a table was created containing metadata for the collection, also conforming to the DCAT-US Schema (note: variable definitions for DCAT-US Schema can be found here: https://resources.data.gov/resources/dcat-us/). This dataset is labelled "MWW-Images_Collection-Metadata_#.#.#.csv" and was a key point of reference, as the author was later able to pull information from it to fill in missing item-level metadata. 
 
 The author then compiled and normalized item-level metadata for each of the nine sample photographs from the raw data.
  
 
 
 ### NORMALIZATION
-Normalized data is contained in the document labelled "MWW-Images_Item-Level_Metadata_NORMALIZED_#.#.#.csv 
+Normalized data is contained in the document labelled "MWW-Images_Item-Level-Metadata-NORMALIZED_#.#.#.csv 
 
 In the normalized file, we observe the following: 
 * No changes to the "Owner" variable
